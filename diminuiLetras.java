@@ -8,3 +8,8 @@ public class diminuiLetras {
         System.out.println("A palavra corrigida é: " + newWord);
     }
 }
+
+public static void main(String[] args) {
+    diminuiLetras ltpqn = new diminuiLetras();
+    ltpqn.lowCase();
+}
